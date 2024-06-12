@@ -22,7 +22,7 @@ input{
 .hero-text h1{
   font-family: modera;
   color: var(--primary-color);
-  font-size: 180px;
+  font-size: 140px;
 }
 .hero-text h2{
  color: white;
@@ -319,6 +319,10 @@ footer i{
 textarea{
   width: 80%;
 }
+  .cont{
+  width: 80%;
+  margin: 15px auto;
+  }
 button{
   width: 20%;
 }
