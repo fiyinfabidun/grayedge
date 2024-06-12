@@ -82,7 +82,7 @@ embodying resilience</p>
   <div className="char container">
          
           <div className="txt two">
-            <h2>Fàjuyigbé:</h2>
+            <h2>Ifálọlá:</h2>
             <p> A descendant of Fajuyigbe, Ifalola is a curious and determined young woman driven by a profound
 need to connect her heritage,  Ifalola   seeks to uncover and understand the ancient knowledge
 passed down through her lineage, hoping to find and purpose and identity in the process</p>
