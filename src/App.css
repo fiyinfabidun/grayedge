@@ -339,5 +339,7 @@ button{
   color: var(--primary-color);
   font-size: 100px;
       }
- 
+ .char-img{
+  width: 50%;
+   min-width: 300px;
 }
