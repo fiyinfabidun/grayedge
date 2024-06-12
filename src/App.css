@@ -4,6 +4,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x:hidden;
+}
+
 :root{
 --black-color:#1b1b1b;
 --primary-color:#ffed92e6;
@@ -314,6 +318,8 @@ footer i{
   .txt{
     transform: translateX(0px);
     order: 1;
+    width: 60%;
+min-width: 300px;
   }
   input,
 textarea{
