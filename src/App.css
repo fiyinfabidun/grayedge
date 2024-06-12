@@ -335,5 +335,10 @@ button{
 .video-container{
   font-size: 30px;
 }
+  .hero-text h1{
+  font-family: modera;
+  color: var(--primary-color);
+  font-size: 100px;
+      }
  
 }
