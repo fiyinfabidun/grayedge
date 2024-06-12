@@ -63,7 +63,7 @@ const Home = () => {
    
   <div className="char container">
           <div className="char-img">
-            <img  data-aos='fade-right'  src={fa} alt=''/>
+            <img  data-aos='fade-up'  src={fa} alt=''/>
           </div>
           <div className="txt">
             <h2>Fàjuyigbé:</h2>
@@ -88,7 +88,7 @@ need to connect her heritage,  Ifalola   seeks to uncover and understand the anc
 passed down through her lineage, hoping to find and purpose and identity in the process</p>
           </div>
           <div className="char-img">
-              <img  data-aos='fade-right'  src={lola} alt=''/>
+              <img  data-aos='fade-up'  src={lola} alt=''/>
           </div>
         </div>
   </div>
