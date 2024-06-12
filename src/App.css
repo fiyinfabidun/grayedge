@@ -134,11 +134,10 @@ justify-content: center;
 text-align: start;
 width: 45%;
 min-width: 250px;
-transform: translateX(-100px);
 
 }
 .txt.two{
-transform: translateX(0px);
+/*transform: translateX(0px);*/
 
 }
 .txt h2{
