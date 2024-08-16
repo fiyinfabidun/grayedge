@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="text-seg">
           <div data-aos='fade-up'  className="cont">
-          <p>Sensorium intertwines past and present in a visually stunning narrative that explores the legacy of knowledge and the mystical connections between generations.
+          <p>Lola's Odyssey intertwines past and present in a visually stunning narrative that explores the legacy of knowledge and the mystical connections between generations.
           </p>
           <p>From the divine forests of pre-colonial Ibadan to the bustling streets of modern Lagos, this tale beckons you to embark on a journey of discovery, courage, and destiny.</p>
           <p>Watch the Official Trailer Now and prepare to be captivated by a story that bridges time and transcends reality.    
