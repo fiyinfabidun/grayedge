@@ -26,7 +26,7 @@ input{
 .hero-text h1{
   font-family: modera;
   color: var(--primary-color);
-  font-size: 60px;
+  font-size: 100px;
 }
 .hero-text h2{
  color: white;
@@ -337,7 +337,7 @@ button{
   .hero-text h1{
   font-family: modera;
   color: var(--primary-color);
-  font-size: 100px;
+  font-size: 80px;
       }
  .char-img{
   width: 50%;
