@@ -17,6 +17,7 @@ body {
 @font-face {
   font-family: modera;
   src: url('images/Moderniz.otf');
+  font-display: block;
 }
 input{
   outline: none;

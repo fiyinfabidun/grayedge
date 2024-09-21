@@ -19,12 +19,10 @@ function App() {
   useEffect(() => {
     if (document.fonts) {
       document.fonts.ready.then(() => {
-        // Start fade-out
         setFadeOut(true);
-        // Wait for the fade-out transition
         setTimeout(() => {
           setIsLoading(false);
-        }, 500); // Match this duration with your CSS transition
+        }, 500);
       });
     } else {
       window.addEventListener('load', () => {
