@@ -6,9 +6,9 @@ import 'aos/dist/aos.css';
 import Loader from './pages/Loader';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [fadeOut, setFadeOut] = useState(false);
+  const [loading, setLoading] = useState(true);
 
+ 
   const ScrollToTop = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -17,28 +17,33 @@ function App() {
   };
 
   useEffect(() => {
-    if (document.fonts) {
-      document.fonts.ready.then(() => {
-        setFadeOut(true);
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 500);
+    const handleFontsLoaded = () => {
+      if (document.fonts) {
+        return document.fonts.ready;
+      }
+      return Promise.resolve();
+    };
+
+    const handlePageLoaded = () => {
+      return new Promise((resolve) => {
+        if (document.readyState === 'complete') {
+          resolve();
+        } else {
+          window.addEventListener('load', resolve);
+        }
       });
-    } else {
-      window.addEventListener('load', () => {
-        setFadeOut(true);
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 500);
-      });
-    }
+    };
+
+ 
+    Promise.all([handleFontsLoaded(), handlePageLoaded()]).then(() => {
+      setLoading(false);
+    });
   }, []);
 
   return (
     <div className="App">
       <ScrollToTop />
-      {isLoading && <Loader fadeOut={fadeOut} />}
-      {!isLoading && <Home />}
+      {loading ? <Loader loading={loading} /> : <Home />} 
     </div>
   );
 }
