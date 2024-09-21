@@ -5,7 +5,7 @@ import { CircleLoader } from 'react-spinners';
 const Loader = ({ loading }) => {
   return (
     <div className="loader-container">
-      <CircleLoader color="#ffed92e6" loading={loading} size={80} />
+      <CircleLoader color="#ffed92e6" loading={loading} size={100} />
     </div>
   );
 };
