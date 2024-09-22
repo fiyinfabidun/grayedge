@@ -7,7 +7,7 @@ const VideoPlayer = () => {
   return (
     <div className="video-container">
         <h1>THE STORY UNFOLDS</h1>
-        <p>EPSIODE 1</p>
+        <p>EPISODE 1</p>
     </div>
   );
 };
